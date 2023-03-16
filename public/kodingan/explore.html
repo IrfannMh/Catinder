@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/tes.css">
+    <script src="js/explore.js"></script>
+    <title>Explore</title>
+  </head>
+  
+  
+<body class="bg_menu">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-sm-8">
+                <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light">
+                    <a href="">
+                        <img src="../bahan buat design webnya/Catinder.png" class="logo_nav">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="chatBT.html">Chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vetBT.html">Vet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutBT.html">About  <span class="sr-only">(current)</span></a>
+                        </li>    
+                    </ul>
+                    <a href="profileBT.html">
+                        <img src="./bahan buat design webnya/irpan.png" class="profil">
+                    </a>
+                     
+                </nav>
+                 
+            </div>
+            <div class="col-lg-4 pt-3">
+                <img id="menu-filter" src="./bahan buat design webnya/Icon awesome-filter.png" onclick="show()"/>
+            </div>  
+        </div>
+    </div>
+    <div id="sidebar-filter" class="sidebar-filter">
+        <h2><a href="javascript:void(0)" class="close" onclick="hide()">X</a></h2>
+        <h2>Filter</h2>
+        <h3>Race</h3>
+        <p>Anggora</p>
+        <p>Bengal</p>
+        <p>Munchkin</p>
+        <p>Persian</p>
+        <p>Ragdoll</p>
+        <p>Shorthair</p>
+        <p>Siberian</p>
+        <h3>Gender</h3>
+        <p>Female</p>
+        <p style="color: red;">Male</p>
+        <h3>Age</h3>
+        <p>Less than 1 years</p>
+        <p style="color: red;">1 - 2 years</p>
+        <p>More than 2 years</p>
+        <h3>Distance</h3>
+        <p>Less than 3 Km</p>
+        <p style="color: red;">3 - 7 Km</p>
+        <p>More than 7 Km</p>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-6 ">
+                <h1 class="pembaca bg_brown">Oren</h1>
+                <div class="row mt-3">
+                    <ul class="info_pet">
+                        <li>1 years 4 month</li>
+                        <li>Male</li>
+                        <li>Shorthair</li>
+                        <li>Vaccine Rabies, FVRCP, FeLV</li>
+                    </ul>
+                </div>
+
+                <div class="row margin50">
+                    <div class="col-lg-2">
+                        <img src="./bahan buat design webnya/fikri profile.png" >
+                    </div>
+                    <div class="col-lg-10">
+                        <ul class="info_pemilik">
+                            <li><h1 class="pemilikpet">Miftakhul Fikri</h1></li>
+                            <li>pondok labu, Jakarta</li>
+                            <li>5 km</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                
+                <img class="profil_pet padding_left" type="button" onclick="" src="./bahan buat design webnya/Image 1.png" >
+                
+                <a href="">
+                    <img type="button" onclick="love()" src="./bahan buat design webnya/love.png" class="btn_expl">
+                </a>
+                <a href="">
+                    <img type="button" onclick="skip()" src="./bahan buat design webnya/skip.png" class="btn_expl2">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-lg-4 col-sm-5">
+                    <div class="contact">
+                        <p>Contact Us:</p>
+                        <div class="sosmed">
+                            <img class="ig img_1" src="./bahan buat design webnya/Icon awesome-instagram.png" />
+                            <img class="twit img_1" src="./bahan buat design webnya/Icon awesome-twitter.png" />
+                            <img class="fb img_1" src="./bahan buat design webnya/Icon awesome-facebook-f.png" />
+                            <img class="yt img_1" src="./bahan buat design webnya/Icon awesome-youtube.png" />    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-7">
+                    <img src="./bahan buat design webnya/Intersection 3crop.png" class="garis">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

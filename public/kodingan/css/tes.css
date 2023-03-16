@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'Breath';
+    src: url('../bahan buat design webnya/Breathing.ttf') format('truetype');
+}
+.bg_onboard {
+    background-image: url('../bahan buat design webnya/color_onboard.png');
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    height: auto;
+    background-size: 100%;
+    margin-bottom: 0%;
+    background-repeat: repeat;
+}
+.bg_menu{
+    background-image: url('../bahan buat design webnya/begron2.png');
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    height: auto;
+    background-size: 100%;
+    margin-bottom: 0%;
+    background-repeat: repeat;
+}
+.header{
+    margin-top: 10px;
+}
+#logo{
+    width: 15%;
+}
+p{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+.kotak{
+    background-color:  #F3D4AB;
+    width: 120%;
+}
+.pembaca{
+    font-family: 'Breath';
+}
+.pesan{
+    width: 100%;
+}
+.ttd{
+    float: right;
+}
+.pembuat{
+    font-family: 'Breath';
+    font-size: 20px;
+    padding-left: 35px;
+}
+.masuk{
+    position: relative;
+    top: 50%;
+    float: left;
+    width: 12%;
+}
+.padding_25{
+    padding-top:20px;
+    padding-bottom: 5px;
+    padding-left:75px;
+}
+.icon1{
+    width: 15%;
+    float: right;
+}
+.icon2{
+    padding-top: 50px;
+    width: 90%;
+    float: right;
+}
+
+.contact{
+    bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+.img_1{
+    margin-right: 15px;
+    width: 10%;
+}
+.sosmed{
+    float: left;
+}
+.garis{
+    width: 30%;
+}
+.padding_10{
+    padding-top: 10px;
+}
+.padding_40{
+    padding-top: 40px;
+}
+.bg_color{
+    position: right;
+    width: 100%;
+    background-color:whitesmoke;
+}
+.button{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    float: right;
+}
+.bt_login{
+    width: 100px;
+    float: left;
+}
+.bt_login a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    border: 2px solid #FF7F7C;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bt_daftar{
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.bt_daftar a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    border: 2px solid #FF7F7C;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.isi{
+    width: 100%;
+    float: left;
+}
+.isi_kiri{
+    width: 60%;
+    float: left;
+}
+.isi_kanan{
+    width: 40%;
+    float: right;
+}
+
+.kucing{
+    float: right;
+    margin-top: 100px;
+    width: 100%;
+}
+.back{
+    float: right;
+    width: 50%;
+}
+.bt_login2{
+    float: right;
+    width: 50%;
+}
+
+.bt_login3{
+    float: right;
+    width: 10%;
+}
+.garisbawah {
+    border: thin;
+    border-bottom-style: solid;
+    width: 364px;
+    font-family: 'Times New Roman';
+}
+.logo_nav{
+    width: 50%;
+    padding-left: 10px;
+}
+a {
+    font-family: 'Times New Roman';
+    font-size: 15pt;
+    font-weight: bold; 
+}
+li {
+    padding-right: 10px;
+}
+.profil{
+    width: 8%;
+    float: left;
+}
+.prof_expl{
+    width: 150%;
+}
+.kotak_menu{
+    background-color:  #F3D4AB;
+    width: 70%;
+}
+.symptom {
+    padding: 30px;
+}
+.symptom .img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80px;
+    flex: 0 0 80px;
+    margin-right: 20px; 
+}
+.symptom .img img {
+    max-width: 100%;
+    margin-bottom: 0; 
+}
+.symptom .text {
+    padding-top: 10px; 
+}
+.symptom .text h3 {
+    font-family: 'Breath';
+    font-size: 16px;
+    font-weight: 700;
+    color: black; 
+}
+.symptom .text p {
+    font-family: 'Times New Roman';
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0; 
+}
+.white{
+    color: white;
+}
+.icon_vet{
+    width: 8%;
+}
+.kanan{
+    float: right;
+}
+.kiri{
+    float: left;
+}
+.bg_brown{
+    background-color: #F3D4AB;
+}
+.bg_white{
+    background-color: white;
+}
+.foto{
+    width: 100%;
+}
+.bt_save{
+    width: 25%;
+    float: right;
+    margin-right: 17%;
+}
+.add_pet{
+    width: 75%;
+    float: left;
+}
+
+.frmsname {
+    font-size: 42px;
+    font-family: 'Breath';
+    width: 100%;
+    background-color: #F3D4AB;
+}
+
+.profil_pet{
+    width: 100%;
+}
+.padding_left{
+    padding-left: 20%;
+}
+ul,li{
+    list-style: none;
+    font-family: 'Times New Roman';
+}
+.margin50{
+    margin-top: 200px;
+}
+.pemilikpet{
+    font-size: 25px;
+    font-family: 'Breath';
+}
+.namachat{
+    font-family: 'Breath';
+    font-size: 15px;
+}
+.marginleft{
+    margin-left: 20%;
+}
+.btn_expl{
+    z-index: 1;
+    position: absolute;
+    left: 122px;
+    top: 475px;
+}
+.btn_expl2{
+    z-index: 1;
+    position: absolute;
+    left: 221px;
+    top: 475px;
+}
+#menu-filter{
+    z-index: 4;
+    float: right;
+    width: 35px;
+    cursor: pointer;
+    transition: margin-left .5s;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.sidebar-filter {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 0px 25px;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.sidebar-filter h2{
+    font-size: 28pt;
+    padding-left: 20px;
+}
+.sidebar-filter h3{
+    font-size: 20pt;
+    padding-left: 40px;
+}
+.sidebar-filter p{
+    font-size: 16pt;
+    padding-left: 60px;
+}
+.close{
+    color: black;
+    cursor: pointer;
+    text-decoration: unset;
+}
+.close:hover{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke-color: black;
+}
+.logout{
+    float: left;
+    font-size: 25px;
+    color: #FF7F7C;
+}
+.logout:hover{
+    color: #FF7F7C;
+}
